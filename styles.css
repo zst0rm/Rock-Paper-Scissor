@@ -1,0 +1,28 @@
+.score-info{
+    margin-top: 16px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.result-move{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.move1,.move2,.move3{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(250, 250, 250);
+    margin-right: 20px;
+}
+.move1:hover,.move2:hover,.move3:hover{
+    border-color: rgb(116, 248, 248);
+}
+.move1-img,.move2-img,.move3-img{
+    height: 100px;
+}
